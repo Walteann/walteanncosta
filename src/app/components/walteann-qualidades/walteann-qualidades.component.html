@@ -1,70 +1,15 @@
 <section class="perfil" id="perfil">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="meuPerfil">
-                    <div class="col-lg-2 col-md-2 oPerfil wow fadeInLeft" data-wow-delay="0.7s">
-
-                        <div class="imagem"><img src="assets/imagem/perfil/284219.png" alt="trabalho em equipe"></div>
-                        <h5>Trabalho Em Equipe</h5>
-                        <div class="perf">
-                            <p>Essencial para Desenvolvimento dos Projetos</p>
-                        </div>
-
-                    </div>
-                    <div class="col-lg-2 col-md-2 oPerfil wow fadeInLeft" data-wow-delay="0.4s">
-                        <div class="imagem">
-                            <img src="assets/imagem/perfil/296393.png" alt="Pro ativo"></div>
-                        <h5>Pro-Ativo</h5>
-                        <div class="perf">
-                            <p>Dar iniciativa, assumir responsabilidade e riscos</p>
-                        </div>
-
-                    </div>
-
-
-                    <div class="col-lg-2 col-md-2 oPerfil wow fadeInLeft" data-wow-delay="0.1s">
-                        <div class="imagem">
-                            <img src="assets/imagem/perfil/285167.png" alt="logica"></div>
-                        <h5>Raciocínio</h5>
-                        <div class="perf">
-                            <p>Bom em Logica de Programação</p>
-                        </div>
-
-                    </div>
-                    <div class="col-lg-2 col-md-2 oPerfil wow fadeInRight" data-wow-delay="0.1s">
-                        <div class="imagem">
-                            <img src="assets/imagem/perfil/295963.png" alt="desafios"></div>
-                        <h5>Challenge Accepted</h5>
-                        <div class="perf">
-                            <p>Buscar novos Desafios</p>
-                        </div>
-
-                    </div>
-
-                    <div class="col-lg-2 col-md-2 oPerfil wow fadeInRight" data-wow-delay="0.4s">
-
-                        <div class="imagem">
-                            <img src="assets/imagem/perfil/295355.png" alt="buscar conhecimento"></div>
-                        <h5>Conhecimento</h5>
-                        <div class="perf">
-                            <p>Crucial é: nunca deixar de Aprender </p>
-                        </div>
-
-
-                    </div>
-
-                    <div class="col-lg-2 col-md-2 oPerfil wow fadeInRight" data-wow-delay="0.7s">
-
-                        <div class="imagem">
-                            <img src="assets/imagem/perfil/297407.png" alt="programador"></div>
-                        <h5>Desenvolvedor</h5>
-                        <div class="perf">
-                            <p>Minha maior arte é programar</p>
-                        </div>
-
+    <div class="container-fluid">
+        <div class="row">
+            <div class="meuPerfil">
+                <div class="col-lg-2 col-md-2 oPerfil wow fadeInUp" data-wow-delay="0.4s" *ngFor="let qualidade of qualidades">
+                    <div class="imagem"><img src="{{qualidade.img}}" alt="{{qualidade.alt}}"></div>
+                    <h5>{{qualidade.title}}</h5>
+                    <div class="perf">
+                        <p>{{qualidade.subTitle}}</p>
                     </div>
                 </div>
-
             </div>
         </div>
-    </section>
+    </div>
+</section>
