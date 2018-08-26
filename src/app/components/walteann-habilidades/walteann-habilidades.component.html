@@ -50,51 +50,20 @@
 
                 <h2>Conhecimento em:</h2>
                 <div class="skills">
-                    <div class="skills2 wow fadeInLeft" data-wow-delay="0.1s">
-                        <img src="assets/imagem/skills/php.png" alt="php"></div>
-                    <div class="skills2 wow fadeInDown" data-wow-delay="0.2s"><img src="assets/imagem/skills/java.png" alt="java"></div>
-                    <div class="skills2 wow fadeInUp" data-wow-delay="0.4s"><img src="assets/imagem/skills/angularjs.png"
-                            alt="angularjs"></div>
-                    <div class="skills2 wow fadeInRight" data-wow-delay="0.3s"><img src="assets/imagem/skills/csharp.png"
-                            alt="csharp"></div>
-                    <div class="skills2 wow fadeInLeft" data-wow-delay="0.4s"><img src="assets/imagem/skills/html5.png" alt="html5"></div>
-                    <div class="skills2 wow fadeInDown" data-wow-delay="0.5s"><img src="assets/imagem/skills/css3.png" alt="css3"></div>
-                    <div class="skills2 wow fadeInRight" data-wow-delay="0.6s"><img src="assets/imagem/skills/javascript.png"
-                            alt="javascript"></div>
-                    <div class="skills2 wow fadeInUp" data-wow-delay="0.6s"><img src="assets/imagem/skills/es6.png" alt="ecmascript6"></div>
-                    <div class="skills2 wow fadeInLeft" data-wow-delay="0.7s"><img src="assets/imagem/skills/jquery.png"
-                            alt="jquery"></div>
-                    <div class="skills2 wow fadeInUp" data-wow-delay="0.8s"><img src="assets/imagem/skills/mysql.png" alt="mysql"></div>
-                    <div class="skills2 wow fadeInDown" data-wow-delay="0.8s"><img src="assets/imagem/skills/bootstrap3.png"
-                            alt="bootstrap321"></div>
-                    <div class="skills2 wow fadeInUp" data-wow-delay="0.8s"><img src="assets/imagem/skills/materialize.png"
-                            alt="materialize"></div>
-                    <div class="skills2 wow fadeInRight" data-wow-delay="0.9s"><img src="assets/imagem/skills/photoshop.png"
-                            alt="photoshop"></div>
+                    <div class="skills2 wow fadeInUp"  data-wow-delay="0.2s" *ngFor="let skill of conhecimentos">
+                        <img src="{{skill.img}}" alt="{{skill.alt}}">
+                    </div>
                 </div>
             </div>
 
             <div class="col-lg-4 col-md-4">
                 <h2>Familiarizado com</h2>
                 <div class="skills">
-                    <div class="skills2 wow fadeInLeft" data-wow-delay="0.1s"><img src="assets/imagem/skills/git.png" alt="git"></div>
-                    <div class="skills2 wow fadeInLeft" data-wow-delay="0.2s"><img src="assets/imagem/skills/github.png"
-                            alt="github"></div>
-                    <div class="skills2 wow fadeInLeft" data-wow-delay="0.5s"><img src="assets/imagem/skills/filezilla.png"
-                            alt="filezilla"></div>
-                    <div class="skills2 wow fadeInLeft" data-wow-delay="0.3s"><img src="assets/imagem/skills/tortoisesvn.png"
-                            alt="tortoise"></div>
-                    <div class="skills2 wow fadeInLeft" data-wow-delay="0.4s"><img src="assets/imagem/skills/sql.png" alt="sql"></div>
-                    <div class="skills2 wow fadeInLeft" data-wow-delay="0.5s"><img src="assets/imagem/skills/xampp.png" alt="xampp"></div>
-                    <div class="skills2 wow fadeInLeft" data-wow-delay="0.6s"><img src="assets/imagem/skills/trello.png"
-                            alt="trello"></div>
-                    <div class="skills2 wow fadeInLeft" data-wow-delay="0.7s"><img src="assets/imagem/skills/moqups.png"
-                            alt="moqups"></div>
-
+                    <div class="skills2 wow fadeInRight" data-wow-delay="0.1s" *ngFor="let skill of familiarizado">
+                        <img src="{{skill.img}}" alt="{{skill.alt}}">
+                    </div>
                 </div>
-
             </div>
-
         </div>
     </div>
 </section>
