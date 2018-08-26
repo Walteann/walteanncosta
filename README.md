@@ -9,11 +9,11 @@
 <pre>
   <code>ng build --prod --base-href "https://USERNAME.github.io/NOMEDOPROJETO/"</code>
 
-  <code>ng build --prod --base-href "https://walteannn.github.io/walteann/"</code>
+  <code>ng build --prod --base-href "https://walteann.github.io/walteann/"</code>
 
-  <code>npx ngh --dir=href/NOMEDOPROJETO</code>
+  <code>npx ngh --dir=dist/NOMEDOPROJETO</code>
 
-  <code>npx ngh --dir=href/walteann</code>
+  <code>npx ngh --dir=dist/walteann</code>
 </pre>
 
 <p>Então o deploy é feito, e na branch gh-pages que é criada no github recebe o deploy sem a subpasta</p>
