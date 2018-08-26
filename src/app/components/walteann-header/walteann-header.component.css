@@ -1,0 +1,75 @@
+.header {
+    height: 600px;
+    width: 100%;
+    padding: 30px 0 30px;
+    background-image: url(../../../assets/imagem/bkground.jpg);
+    background-position: center center;
+    background-position: no-repeat;
+    background-size: cover;
+    color: #FFFFFF;
+  }
+  .WalCosta {
+    position: relative;
+    top: -50px;
+    color: #13181b;
+    font-weight: 700;
+    font-family: "Jura", Arial, sans-serif;
+  }
+
+  .WalCosta .centralizar {
+    border-bottom: red 2px solid;
+    text-shadow: 1px 1px 2px black, 0 0 25px white, 0 0 5px white;
+  }
+
+  .header .testeT {
+    font-family: "Jura", Arial, sans-serif;
+    height: 100px;
+    width: 300px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 275px;
+  }
+
+
+  .header div span {
+    position: relative;
+    top: -30px;
+    color: #FFF !important;
+    text-shadow: 1px 1px 2px black, 0 0 30px black, 0 0 10px black;
+    font-size: 25px;
+    font-weight: 700;
+    padding-top: 240px;
+    text-align: center;
+  }
+
+  @media only screen and (min-width: 768px) {
+    .header {
+        padding: 30px;
+        height: 600px;
+    }
+    .WalCosta {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        top: -150px;
+    }
+    .header .testeT {
+        height: 150px;
+        width: auto;
+        margin-top: 320px;
+    }
+    .header div span {
+        top: -130px;
+        font-size: 50px;
+    }
+
+}
+
+@media only screen and (min-width: 985px) {
+    .header div span {
+        top: -130px;
+        font-size: 50px;
+    }
+}

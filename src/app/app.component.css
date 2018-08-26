@@ -1,4 +1,4 @@
-
+/*
 .menu-fixo {
   background-color: #13181b;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -23,12 +23,12 @@
 .menu-fixo .navbar-collapse a:hover {
   background-color: #000000;
   color: #cfe6f8 !important;
-}
+} */
 
 
 /** teste **/
 
-.navbar-default {
+/* .navbar-default {
   background-color: rgba(0, 0, 0, 0.0);
 }
 
@@ -116,12 +116,12 @@
 .menu-fixo .navbar-brand span {
   font-family: "Courier New", Arial, sans-serif;
   color: red;
-}
+} */
 
 
 /******** HEADER ********/
 
-.header {
+ /* .header {
   height: 600px;
   width: 100%;
   padding: 30px 0 30px;
@@ -131,7 +131,6 @@
   background-size: cover;
   color: #FFFFFF;
 }
-
 .WalCosta {
   position: relative;
   top: -50px;
@@ -154,6 +153,7 @@
   margin-top: 275px;
 }
 
+
 .header div span {
   position: relative;
   top: -30px;
@@ -163,14 +163,12 @@
   font-weight: 700;
   padding-top: 240px;
   text-align: center;
-}
-
-
+} */
 
 
 /***** SobreMim*******/
 
-.sobreMim {
+/* .sobreMim {
   width: 100%;
   background-color: #FFF;
   background-image: url(../assets/imagem/sobreMim.png);
@@ -204,12 +202,12 @@
 
 .sobreMim #sobremim {
   margin: 15px 15px 45px 15px;
-}
+} */
 
 
 /**** PERFIL ***/
 
-.perfil {
+/* .perfil {
   width: 100%;
   background-color: #ffefd1;
   padding-top: 50px;
@@ -255,7 +253,7 @@
 .oPerfil p {
   font-family: "Comic Sans MS", Arial, sans-serif;
   font-weight: 200;
-}
+} */
 
 
 /***** EXPERIENCIA ******/
@@ -263,7 +261,7 @@
 
 /***** PORTFOLIO *****/
 
-.sobreMim2 {
+/* .sobreMim2 {
   width: 100%;
   background-color: #9FB6CD;
   background-size: cover;
@@ -293,13 +291,13 @@
 
 .sobreMim2 #experiencia {
   margin: 15px 15px 45px 15px;
-}
+} */
 
 
 
 /***** PORTFOLIO *****/
 
-.portfolio {
+/* .portfolio {
   width: 100%;
   background-color: #c1eafb;
   padding: 50px 0 40px;
@@ -339,12 +337,12 @@
 
 .meuPortfolio p {
   font-family: "Comic Sans MS", Arial, sans-serif;
-}
+} */
 
 
 /****** habilidades ******/
 
-.habilidades {
+/* .habilidades {
   padding: 165px 0 30px;
   width: 100%;
   display: flex;
@@ -400,12 +398,12 @@ h2 {
 
 .habilidades i {
   font-size: 14pt;
-}
+} */
 
 
 /*** CONTATOS ***/
 
-.contatos {
+/* .contatos {
   width: 100%;
   padding: 15px 0 0;
   background-color: #13181b;
@@ -479,11 +477,11 @@ h2 {
   font-size: 28pt;
   cursor: pointer;
   transform: translateY(-10px);
-}
+} */
 
 
 /*** RODAPE **/
-
+/*
 .rodape {
   font-family: "Roboto", arial, sans-serif;
   font-weight: 900;
@@ -492,7 +490,7 @@ h2 {
   background-color: #13181b;
   text-align: center;
   color: #56636e !important;
-}
+} */
 
 
 /** TESTE **/
@@ -519,9 +517,7 @@ h2 {
       top: -130px;
       font-size: 50px;
   }
-  .oPerfil {
-      margin-left: 45px;
-  }
+
   .sobreMim {
       display: flex;
       flex-direction: row;
@@ -531,21 +527,7 @@ h2 {
   #sobremim {
       width: 700px;
   }
-  .sobreMim2 {
-      display: flex;
-      flex-direction: row;
-      justify-content: center;
-      align-items: center;
-  }
-  #sobremim2 {
-      width: 700px;
-  }
-  .port {
-      display: flex;
-      flex-direction: row;
-      justify-content: space-around;
-      flex-wrap: wrap;
-  }
+
   .meuesperiencia p {
       width: 350px;
   }
@@ -556,9 +538,7 @@ h2 {
       top: -130px;
       font-size: 50px;
   }
-  .oPerfil {
-      margin-left: 0px;
-  }
+
   .resumo {
       display: flex;
   }
@@ -567,42 +547,5 @@ h2 {
   }
   #sobremim2 P {
       width: 700px;
-  }
-  .meuesperiencia .strings {
-      width: 220px;
-      display: flex;
-      flex-direction: column;
-      justify-content: space-around;
-      text-align: center;
-      align-items: center;
-  }
-  .meuesperiencia h3,
-  p {
-      text-align: center;
-      width: 200px;
-  }
-  .meuesperiencia p {
-      width: 500px;
-  }
-  .meuPortfolio .strings {
-      width: 220px;
-      display: flex;
-      flex-direction: column;
-      justify-content: space-around;
-      text-align: center;
-      align-items: center;
-  }
-  .meuPortfolio h3,
-  p {
-      text-align: center;
-      width: 200px;
-  }
-  .oPerfil .perf {
-      width: 150px;
-      display: flex;
-      flex-direction: row;
-      justify-content: center;
-      text-align: center;
-      margin-left: -15px;
   }
 }

@@ -1,0 +1,119 @@
+
+.menu-fixo {
+  background-color: #13181b;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.menu-fixo div ul li a {
+  color: #98d2ff !important;
+}
+
+.menu-fixo .navbar-brand {
+  color: #98d2ff !important;
+}
+.menu-fixo .navbar-brand:hover {
+  text-shadow: 1px 1px 2px black, 0 0 3px white, 0 0 1px white;
+}
+
+
+.menu-fixo .icon-bar {
+  background-color: #98d2ff !important;
+}
+
+.menu-fixo .navbar-collapse a:hover {
+  background-color: #000000;
+  color: #cfe6f8 !important;
+}
+
+
+/** teste **/
+
+.navbar-default {
+  background-color: rgba(0, 0, 0, 0.0);
+}
+
+.navbar {
+  width: 100%;
+  text-transform: uppercase;
+  font-family: 'Roboto', Arial, sans-serif;
+  transition: background-color 1s ease 0s;
+  font-weight: 900;
+}
+
+.navbar a {
+  color: #13181b !important;
+  opacity: 0.7;
+}
+
+.navbar a:hover {
+  background-color: #13181b;
+}
+
+.navbar .icon-bar {
+  background-color: #FFF;
+  box-shadow: 1px 1px black;
+}
+
+.navbar .navbar-collapse a {
+  font-weight: 900;
+  background-color: none;
+  text-align: center;
+  color: #FFF!important;
+  text-shadow: 1px 1px 2px black, 0 0 25px black, 0 0 5px black;
+}
+
+.menu-fixo .navbar-collapse a {
+  background-color: none;
+  text-align: center;
+  color: #98d2ff !important;
+}
+
+.navbar .navbar-collapse a:active {
+  background-color: rgba(19, 24, 27, 0.1) !important;
+}
+
+.menu-fixo .navbar-collapse a:active {
+  background-color: rgba(19, 24, 27, 0.2);
+}
+
+.menu-fixo .navbar-collapse .scroll #sobreMim:active {
+  background-color: blue;
+}
+
+.navbar .navbar-collapse a:hover {
+  color: aqua !important;
+  background-color: rgba(19, 24, 27, 0.1) !important;
+}
+
+.navbar button:hover {
+  opacity: 1;
+}
+
+.navbar-brand {
+  font-family: "Jura", Arial, sans-serif;
+  font-size: 30px;
+  color: #13181b !important;
+  text-transform: none;
+  transition: 0.5s;
+}
+
+.navbar-header a:hover {
+  background-color: transparent !important;
+
+}
+
+.navbar-brand:hover {
+  color: black !important;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+
+.navbar-brand span {
+  font-family: "Courier New", Arial, sans-serif;
+}
+
+
+.menu-fixo .navbar-brand span {
+  font-family: "Courier New", Arial, sans-serif;
+  color: red;
+}

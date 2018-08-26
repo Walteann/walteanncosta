@@ -1,0 +1,76 @@
+.contatos {
+    width: 100%;
+    padding: 15px 0 0;
+    background-color: #13181b;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
+  .contatos h2 {
+    text-align: center;
+    color: #56636e;
+  }
+
+  .contatos i {
+    color: #98d2ff;
+    font-size: 20pt;
+    margin-bottom: 10px;
+  }
+
+  .contatos span {
+    color: #56636e;
+    margin-left: 15px;
+  }
+
+  .anexos a {
+    color: #56636e;
+    margin-left: 15px;
+  }
+
+  .anexos a:hover {
+    cursor: pointer;
+    color: #98d2ff;
+  }
+
+  /* .rodapefinal {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    margin-top: -15px;
+  }
+
+  .minhasRedes {
+    height: 55px;
+    width: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: -10px;
+  }
+
+  .minhasRedes div {
+    height: 50px;
+    width: 50px;
+    padding: 10px;
+  }
+
+  .redesocial {
+    padding: 12px;
+  }
+
+  .redesocial i {
+    color: #56636e;
+    font-size: 25pt;
+    transition: all 0.6s ease-out;
+  }
+
+  .redesocial i:hover {
+    color: #98d2ff;
+    font-size: 28pt;
+    cursor: pointer;
+    transform: translateY(-10px);
+  } */
+

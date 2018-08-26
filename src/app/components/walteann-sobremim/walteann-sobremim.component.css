@@ -1,0 +1,69 @@
+
+.sobreMim {
+    width: 100%;
+    background-color: #FFF;
+    background-image: url(../../../assets/imagem/sobreMim.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding-top: 150px;
+    padding-bottom: 120px;
+  }
+
+  .sobreMim img {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    margin: 50px;
+    margin-bottom: 25px;
+  }
+
+  .sobreMim h2 {
+    margin-top: -5px;
+    font-family: "Handlee", Arial, sans-serif;
+    font-weight: 700;
+    color: #241e1f;
+  }
+
+  .sobreMim p {
+    font-family: "Calibri", Arial, sans-serif;
+    font-weight: 600;
+    color: #241e1f;
+  }
+
+  .sobreMim #sobremim {
+    margin: 15px 15px 45px 15px;
+  }
+
+
+  @media only screen and (min-width: 768px) {
+
+    .sobreMim {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    #sobremim {
+        width: 700px;
+    }
+    .sobreMim2 {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    #sobremim2 {
+        width: 700px;
+    }
+  }
+
+  @media only screen and (min-width: 985px) {
+
+    #sobremim P {
+        width: 700px;
+    }
+
+  }
+
+

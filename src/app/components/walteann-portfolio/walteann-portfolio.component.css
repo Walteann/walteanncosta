@@ -1,0 +1,67 @@
+.portfolio {
+    width: 100%;
+    background-color: #c1eafb;
+    padding: 50px 0 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+    align-items: center;
+    padding-top: 160px;
+    padding-bottom: 160px;
+  }
+
+  .portfolio h2 {
+    text-transform: uppercase;
+    font-family: "Economica", Arial, sans-serif;
+    font-size: 30pt;
+    font-weight: 700;
+  }
+
+  .meuPortfolio {
+    width: 350px;
+  }
+
+  .meuPortfolio img {
+    width: 300px;
+    margin: 10px;
+    border-radius: 15px;
+  }
+
+  .meuPortfolio h3 {
+    font-family: "Handlee", Arial, sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 15pt;
+  }
+
+  .meuPortfolio p {
+    font-family: "Comic Sans MS", Arial, sans-serif;
+  }
+
+
+  @media only screen and (min-width: 768px) {
+    .port {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+  }
+
+  @media only screen and (min-width: 985px) {
+    .meuPortfolio .strings {
+        width: 220px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        text-align: center;
+        align-items: center;
+    }
+    .meuPortfolio h3,
+    p {
+        text-align: center;
+        width: 200px;
+    }
+  }
