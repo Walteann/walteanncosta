@@ -26,7 +26,8 @@
 </pre>
 
 
-
+## gitignore
+git update-index --assume-unchanged src/environments/environment.ts 
 #### Walteann
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.1.2.
